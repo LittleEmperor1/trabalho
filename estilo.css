@@ -1,1 +1,61 @@
+body {
+    background-color: #f0f8ff; /* cor suave */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
 
+/* Título centralizado e colorido */
+h1 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+/* Parágrafo maior e justificado */
+p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+/* Lista com maior espaçamento entre itens */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Imagem com bordas arredondadas e tamanho adequado */
+img {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Estilização da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #999;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Link com cor padrão e mudança de cor ao passar o mouse */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF5733;
+}
